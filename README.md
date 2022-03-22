@@ -1,2 +1,4 @@
 # project-package-2022
-This is a R-package for a data science project. The project analyses plant diversity in Denmark. This package is done by Christian Voldby.
+This is a R-package for a data science project. The project is an analysis of plant diversity in Denmark. 
+
+The package is created and maintained by Christian Voldby.
