@@ -1,4 +1,4 @@
-# The distribution of pin-point hits for two species
+#' The distribution of pin-point hits for two species
 #
 # The purpose of the function is to act as a distribution of pin-point hits for two species.
 #
