@@ -17,6 +17,7 @@
 
 p_beta <- function(delta, q) {
   b_gamma <- function(a, b) {
-    return(gamma(a + b) / )
+    return(gamma(a + b) / (gamma(a) * gamma(b)))
   }
+
 }
