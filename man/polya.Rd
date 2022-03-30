@@ -9,9 +9,9 @@
 \arguments{
 \item{x}{vector of quantiles}
 
-\item{delta}{parameter for the intra-plot correlation}
+\item{delta}{parameter for the intra-plot correlation (\code{0 < delta < 1})}
 
-\item{q}{parameter for the mean cover}
+\item{q}{parameter for the mean cover (\code{0 < delta < 1})}
 
 \item{n}{number of pins in a plot. The default is 16 pins.}
 }
