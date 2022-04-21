@@ -22,5 +22,5 @@ p_beta <- function(delta, q) {
   }
   alpha <- q / delta - q
   beta <- (1 - q) * (1 - delta) / delta
-  return()
+  return(dbeta(alpha, beta))
 }

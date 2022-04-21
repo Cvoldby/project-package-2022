@@ -33,12 +33,3 @@ polya <- function(x, delta, q, n = 16){
   * 1 / pochhammer(1 / q - 1, n))
 }
 
-
-# These function may not be necessary
-#polya_mean <- function(n, q){
-#  return(n * q)
-#}
-
-#polya_var <- function(n, delta, q){
-#  return(n * (1 - q) * q * (1 - delta(1 - n)))
-#}
