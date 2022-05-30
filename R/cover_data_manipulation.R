@@ -1,6 +1,7 @@
 #' @title cover_data_manipulation
 #'
-#' @description The purpose of this function is to simulate N plots of plant cover data. Thus returning r, s, t, u.
+#' @description Data manipulation:
+#' The purpose of this function is to retrieve the data of interest.
 #'
 #' @usage
 #'

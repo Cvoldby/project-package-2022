@@ -1,6 +1,6 @@
 #' @title mean cover
 #'
-#' @description The purpose is to estimate mean plant cover at a site.
+#' @description The purpose is to estimate mean plant cover at a site. The value must be between 0 and 1.
 #'
 #' @usage
 #'
