@@ -3,7 +3,7 @@ This is a R-package for a data science project. The package is created and maint
 
 The packages devtools and rozygen2 has been used in creating this R-package.
 
-# Monitoring Plant Diversity In Denmark
+## Monitoring Plant Diversity In Denmark
 The project deals with monitoring plant diversity in Denmark. The data is cover data and pin-point frame data. The aim of this R-package is to provide useful functions to assist in the analysis of the data. 
 
 Key functions:
@@ -13,7 +13,7 @@ Key functions:
 
 * Covariance. The parameter of interest in regards to plant competition.
 
-# Installation Guide
+## Installation Guide
 To get the current released version:
 ```R
 install.packages("project-package-2022")
