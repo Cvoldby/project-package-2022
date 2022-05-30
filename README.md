@@ -14,13 +14,8 @@ Key functions:
 * Covariance. The parameter of interest in regards to plant competition.
 
 ## Installation Guide
-To get the current released version:
-```R
-install.packages("project-package-2022")
-```
-To get the current development version from github:
+To get the current version from github:
 ```R
 # install.packages("devtools")
 devtools::install_github("CVoldby/project-package-2022")
 ```
-
