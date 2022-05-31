@@ -23,15 +23,13 @@ single numeric value
 \description{
 The purpose of this function is to calculate the observed covariance.
 The function for this observed covariance is corrected by the number of plots at a site.
-
- @usage
 }
 \examples{
 r <- c(1,2,3,4,5)
 s <- c(5,4,3,2,1)
 t <- c(2,3,2,3,2)
 u <- c(8,7,8,7,8)
-N <- 16
+N <- 5
 observed_cov(r, s, t, u, N)
 
 }

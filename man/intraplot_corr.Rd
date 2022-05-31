@@ -4,7 +4,7 @@
 \alias{intraplot_corr}
 \title{intra-plot correlation}
 \usage{
-
+intraplot_corr(data, site_id, species_id, year)
 }
 \arguments{
 \item{data}{the cover data.}
@@ -12,15 +12,14 @@
 \item{site_id}{the site of interest.}
 
 \item{species_id}{identifier for a species in the cover data.}
+
+\item{year}{the year of interest.}
 }
 \value{
 single numeric value.
 }
 \description{
 The purpose of this function is to estimate intra-plot correlation parameter that measures the within-site spatial aggregation of the plant species as the correlation between the outcomes of successive Bernoulli trials.
-}
-\examples{
-
 }
 \author{
 Christian Voldby, Data Science student at Aarhus University.

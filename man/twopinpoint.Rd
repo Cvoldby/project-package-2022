@@ -4,15 +4,25 @@
 \alias{twopinpoint}
 \title{The distribution of pin-point hits for two species}
 \usage{
-twopinpoint(r, s, t, u, N)
+twopinpoint(r, s, t, u, n = 16)
+}
+\arguments{
+\item{r}{the number of pins that only touch plant species A.}
+
+\item{s}{the number of pins that only touch plant species B.}
+
+\item{t}{the number of pins that touch both plant species A and B.}
+
+\item{u}{the number of pint that touch neither species A or B.}
+
+\item{n}{the number of pins in a plot.}
+}
+\value{
+single numeric value
 }
 \description{
 The purpose of the function is to act as a distribution of pin-point hits for two species.
 }
-\details{
-Four stochastic variables may be defined for each plot:
-- r := the number of pins that only touch plant species A.
-- s := the number of pins that only touch plant species B.
-- t := the number of pins that touch both plant species A and B.
-- u := the number of pint that touch neither species A or B.
+\author{
+Christian Voldby, Data Science student at Aarhus University.
 }

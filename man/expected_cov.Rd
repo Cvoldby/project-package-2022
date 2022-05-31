@@ -4,17 +4,22 @@
 \alias{expected_cov}
 \title{The Expected Covariance}
 \usage{
+expected_cov(cover_data, species1_cover, species2_cover, n = 16, N)
+}
+\arguments{
+\item{cover_data}{the 'alledata-cover . csv' provided by instructor Christian Damgaard.}
 
+\item{species1_cover, species2_cover}{the id for the a species.}
+
+\item{n}{The number of pins in a pin-point frame. For this dataset the number is 16.}
+
+\item{N}{The number of plots at the site.}
 }
 \value{
 single numeric value
 }
 \description{
 The purpose of this function is to calculate expected covariance at a site.
-}
-\examples{
-
-
 }
 \author{
 Christian Voldby, Data Science student at Aarhus University

@@ -4,9 +4,11 @@
 \alias{p_beta}
 \title{p_beta}
 \usage{
-
+p_beta(x, delta, q)
 }
 \arguments{
+\item{x}{...}
+
 \item{delta}{The intra-plot corelation parameter}
 
 \item{q}{the mean cover parameter}
@@ -16,9 +18,6 @@ single numeric value
 }
 \description{
 The purpose of this function is adjust the beta distribution to the parameters delta and q.
-}
-\examples{
-
 }
 \author{
 Christian Voldby, Data Science student at Aarhus University

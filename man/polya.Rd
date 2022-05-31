@@ -4,7 +4,7 @@
 \alias{polya}
 \title{Polya-Eggenberger distribution of pin-point hits for a single species.}
 \usage{
-
+polya(x, delta, q, n = 16)
 }
 \arguments{
 \item{x}{vector of quantiles}
@@ -23,8 +23,8 @@ The purpose is the be a distribution of pin-point hits for a single species.
 }
 \examples{
 x <- 5
-delta <- 3
-q <- 0.5
+delta <- 0.3
+q <- 0.3
 polya(x, delta, q)
 
 }

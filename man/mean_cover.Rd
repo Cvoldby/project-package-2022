@@ -4,23 +4,24 @@
 \alias{mean_cover}
 \title{mean cover}
 \usage{
-
+mean_cover(data , site_id , species_id , year)
 }
 \arguments{
-\item{data}{the cover data.frame}
+\item{data}{The 'alledata-cover . csv' data.frame.}
 
-\item{site_id}{the site of interest}
+\item{site_id}{The site of interest.}
 
-\item{species_id}{identifier for a species in the cover data.}
+\item{species_id}{Identifier for a species in the cover data for instance X974.}
+
+\item{year}{The year of interest. To not mix cover data from different years.}
 }
 \value{
-single numeric value
+Single numeric value
 }
 \description{
 The purpose is to estimate mean plant cover at a site.
-}
-\examples{
-
+The value must be between 0 and 1.
+The dataset is the 'alledata-cover . csv' provided by the instructor Christian Damsgaard.
 }
 \author{
 Christian Voldby, Data Science student at Aarhus University
